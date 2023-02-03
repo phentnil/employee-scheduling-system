@@ -65,7 +65,9 @@ Teams with complex requirements and preferences could use this software to gener
 
 The data in the system could be used to figure out better scheduling for each work group's needs. This may include avoiding certain employee pairs because the manager always changes these pairings. If the system can identify patterns, the system could be improved to adjust to the patterns and generate better schedules in the future.
 
-## Application Wireframes
+## Solution Architecture Diagram
+
+## Wireframe Sketches
 
 Login Page
 
@@ -74,3 +76,5 @@ Login Page
 ## User Stories
 
 ## Use Cases
+
+## Use Case Diagram
