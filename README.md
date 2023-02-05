@@ -4,6 +4,27 @@ Welcome to my Senior Capstone Project: the Employee Scheduling System!
 
 The Employee Scheduling System enables employers and employees a way to manage work schedules. The system will generate schedules for a team of employees based on shift assignments and weekly hours. The manager will initially upload or input each employee's information. The system will generate a username for each employee so they can access the schedule and request changes to the schedule.
 
+- [Employee Scheduling System](#employee-scheduling-system)
+  - [Concept Description](#concept-description)
+    - [Data Storage](#data-storage)
+    - [Schedule Generation](#schedule-generation)
+    - [Schedule Publishing](#schedule-publishing)
+    - [Schedule Requests](#schedule-requests)
+    - [Schedule Alerts](#schedule-alerts)
+    - [System API](#system-api)
+    - [Data Usage](#data-usage)
+  - [Solution Architecture Diagram](#solution-architecture-diagram)
+    - [Initial Registration Diagram](#initial-registration-diagram)
+    - [Schedule Generation Diagram](#schedule-generation-diagram)
+  - [Wireframe Sketches](#wireframe-sketches)
+    - [Home Page](#home-page)
+    - [Login Page](#login-page)
+    - [Employee Page](#employee-page)
+    - [Manager Page](#manager-page)
+  - [User Stories](#user-stories)
+  - [Use Cases](#use-cases)
+  - [Use Case Diagram](#use-case-diagram)
+
 ## Concept Description
 
 Managers will initially set up employees in the system via upload or form entry. The upload  will allow managers to upload a CSV file containing the employees on their team, but a form will be available to enter employees one at a time. The employee information will include assigned shift and weekly required hours. The system will enter the manager automatically as the first employee with no hourly requirements. This enables the manager to place themselves on the schedule in case of open shifts or other scenarios as needed.
@@ -87,9 +108,24 @@ The process for generating a new schedule is illustrated in the flowchart diagra
 
 ## Wireframe Sketches
 
-Login Page
+The website will contain at least four primary pages:
 
-[![Login Page](images/login_page.jpg "Login page")](images/login_page.jpg)
+- [Home Page](#home-page)
+- [Login Page](#login-page)
+- [Employee Page](#employee-page)
+- [Manager Page](#manager-page)
+
+### Home Page
+
+[![Home Page](images/Wireframe-HomePage.jpg "Home Page")](images/Wireframe-HomePage.jpg)
+
+### Login Page
+
+[![Login Page](images/Wireframe-LoginPage.jpg "Login page")](images/Wireframe-LoginPage.jpg)
+
+### Employee Page
+
+### Manager Page
 
 ## User Stories
 
