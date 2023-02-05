@@ -67,6 +67,8 @@ The data in the system could be used to figure out better scheduling for each wo
 
 ## Solution Architecture Diagram
 
+[![Solution Architecture Diagram](images/SolutionArchitectureDiagram.jpg "Solution Architecture Diagram")](images/SolutionArchitectureDiagram.jpg)
+
 Within the Employee Scheduling System, each group of employees will be called a **Team**. Each team will contain all the employees of the team, including the manager. The manager role is a special type of employee. This structure is illustrated in the following diagram:
 
 [![Team Structure](images/TeamStructure.jpg "Team Structure")](images/TeamStructure.jpg)
