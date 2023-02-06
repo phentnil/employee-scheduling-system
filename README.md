@@ -119,13 +119,25 @@ The website will contain at least four primary pages:
 
 [![Home Page](images/Wireframe-HomePage.jpg "Home Page")](images/Wireframe-HomePage.jpg)
 
+The home page will provide an introduction of the service and how to get started.
+
 ### Login Page
 
 [![Login Page](images/Wireframe-LoginPage.jpg "Login page")](images/Wireframe-LoginPage.jpg)
 
+The login page will provide a basic login form and additional links for registering a new team and password recovery.
+
 ### Employee Page
 
+[![Employee Page](images/Wireframe-EmployeePage.jpg "Employee Page")](images/Wireframe-EmployeePage.jpg)
+
+When an employee logs in, the monthly calendar will be displayed. The shifts of the current week for the employee logged in will display in a list to the right of the calendar. Both shifts shown on the calendar and in the list can be selected by the employee where options will be shown to submit requests for the selected shift.
+
 ### Manager Page
+
+[![Manager Page](images/Wireframe-ManagerPage.jpg "Manager Page")](images/Wireframe-ManagerPage.jpg)
+
+When the manager logs in, the monthly calendar will be displayed similar to the employee view. However, the shift list to the right will show all employee shifts over the next few days. The manager view will also include an indicator for active requests from employees and a button to enable modifying employees, shift information, or other necessary modifications.
 
 ## User Stories
 
