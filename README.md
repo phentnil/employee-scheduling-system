@@ -156,3 +156,5 @@ When the manager logs in, the monthly calendar will be displayed similar to the 
 5. Employees can respond to shift swaps in which other employees have submitted requests for one of their assigned shifts. The affected shifts will appear with an exclamation point icon. When they click on these shifts, they will see the `Request` dialog showing the details of the shift swap and will be able to `Accept` or `Reject` the request.
 
 ## Use Case Diagram
+
+[![Use Case Diagram](images/UseCaseDiagram.jpg "Use Case Diagram")](images/UseCaseDiagram.jpg)
