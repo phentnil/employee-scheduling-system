@@ -4,7 +4,10 @@ Welcome to my Senior Capstone Project: the Employee Scheduling System!
 
 The Employee Scheduling System enables employers and employees a way to manage work schedules. The system will generate schedules for a team of employees based on shift assignments and weekly hours. The manager will initially upload or input each employee's information. The system will generate a username for each employee so they can access the schedule and request changes to the schedule.
 
+## Table of Contents
+
 - [Employee Scheduling System](#employee-scheduling-system)
+  - [Table of Contents](#table-of-contents)
   - [Concept Description](#concept-description)
     - [Data Storage](#data-storage)
     - [Schedule Generation](#schedule-generation)
