@@ -27,7 +27,7 @@ The Employee Scheduling System enables employers and employees a way to manage w
 
 ## Concept Description
 
-Managers will initially set up employees in the system via upload or form entry. The upload  will allow managers to upload a CSV file containing the employees on their team, but a form will be available to enter employees one at a time. The employee information will include assigned shift and weekly required hours. The system will enter the manager automatically as the first employee with no hourly requirements. This enables the manager to place themselves on the schedule in case of open shifts or other scenarios as needed.
+The manager will initially set up employees in the system via upload or form entry. The upload  will allow managers to upload a CSV file containing the employees on their team, but a form will be available to enter employees one at a time. The employee information will include assigned shift and weekly required hours. The system will enter the manager automatically as the first employee with no hourly requirements. This enables the manager to place themselves on the schedule in case of open shifts or other scenarios as needed.
 
 The manager will request a generated schedule for their team for a specified date range. They will be able to adjust the schedule before publishing to the team.
 
@@ -35,7 +35,7 @@ Employees will be able to view published schedules and request changes such as s
 
 Employees will receive notifications of actions involving them, such as another team member requesting a shift swap or the manager moving their shift.
 
-Managers will receive notifications of requests from employees for changes to a published schedule.
+The manager will receive notifications of requests from employees for changes to a published schedule.
 
 This project is like other software programs such as:
 
@@ -56,7 +56,7 @@ The employee scheduling system will store employee data, generated schedules, an
 
 ### Schedule Generation
 
-Managers will be able to generate new schedules based upon a specified date range. The schedule generating algorithm will gather the following data:
+The manager will be able to generate new schedules based upon a specified date range. The schedule generating algorithm will gather the following data:
 
 - Employees
   - Shift
@@ -141,6 +141,18 @@ When the manager logs in, the monthly calendar will be displayed similar to the 
 
 ## User Stories
 
+1. As the manager, I need to be able to manage my employees so that I can add new employees, remove former employees, and modify their specific details.
+2. As an employee, I need to be able to submit schedule change requests so that I can request shift swaps and days off.
+3. As the manager, I need to see schedule change requests so that I may respond to each one as quickly as possible.
+4. As an employee, I need to see shift swap requests from other employees so that I may indicate my acceptance or rejection of the proposed shift swap.
+5. As an employee, I need to see changes to my schedule in real time so that I'm reporting to the correct location as indicated by the manager.
+
 ## Use Cases
+
+1. The manager can modify employees to their team through the `Team Management` dialog. On the manager view, the `Manage` button will open this dialog, which will show buttons to `Add Employees`, `Edit` each employee entry, and `Delete` employee entries. The `Add Employee` dialog will show a form for the manager to enter employee details. The `Edit` dialog will show a form for the selected employee and will save changes after clicking the `Save` button.
+2. Employees can request shift swaps through the `Schedule Change` dialog. On the employee view, the employee can select the shift on the calendar or shift list. This will open the dialog in which the employee will be able to indicate `day off` or `shift swap`. The `shift swap` option will show a list of shifts available to swap in the same week.
+3. Employees can request days off through the `Time Off Request` dialog. On the employee view, the employee can select a date outside of the current schedule range, which will open the dialog. Submitting a time off request will not alert the manager, but will be used in future schedule generation.
+4. The manager can respond to `Schedule Change Requests` in the `Requests` dialog. On the manager view, the manager can see the notification icon indicating new requests. When they click on the `Requests` button, the `Requests` dialog will open with a list of active requests. Each request will include options to `Accept` or `Reject` each one.
+5. Employees can respond to shift swaps in which other employees have submitted requests for one of their assigned shifts. The affected shifts will appear with an exclamation point icon. When they click on these shifts, they will see the `Request` dialog showing the details of the shift swap and will be able to `Accept` or `Reject` the request.
 
 ## Use Case Diagram
