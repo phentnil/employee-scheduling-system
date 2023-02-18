@@ -27,6 +27,7 @@ The Employee Scheduling System enables employers and employees a way to manage w
   - [User Stories](#user-stories)
   - [Use Cases](#use-cases)
   - [Use Case Diagram](#use-case-diagram)
+  - [Table of Requirements](#table-of-requirements)
 
 ## Concept Description
 
@@ -165,3 +166,16 @@ When the manager logs in, the manager page will display the monthly calendar sim
 ## Use Case Diagram
 
 [![Use Case Diagram](images/UseCaseDiagram.jpg "Use Case Diagram")](images/UseCaseDiagram.jpg)
+
+## Table of Requirements
+
+|  Id   | Requirement                                                                                                                      |
+| :---: | :------------------------------------------------------------------------------------------------------------------------------- |
+|   1   | The software shall allow the manager to request a new generated schedule.                                                        |
+|   2   | The software shall allow the manager and team members to view published schedules when logged in.                                |
+|   3   | The software shall allow the manager to view, modify, and publish generated schedules.                                           |
+|   4   | The software shall allow employees to request days off for unpublished dates.                                                    |
+|   5   | The software shall allow employees to request shift swaps for published dates.                                                   |
+|   6   | The software shall allow the manager to review day off and shift swap requests with options to `Approve` or `Deny` each request. |
+|   7   | The software shall allow a specified employee to `Approve` or `Deny` shift swaps requested by another employee.                  |
+|   8   | The software shall allow managers to add, modify, and remove employees.                                                          |
