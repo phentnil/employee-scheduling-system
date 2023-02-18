@@ -49,6 +49,8 @@ This project is like other software programs such as:
 
 These and other examples had similar features as this project, but few examples supplied schedule generation capabilities.
 
+[Back to top](#employee-scheduling-system)
+
 ### Data Storage
 
 The employee scheduling system will store employee data, generated schedules, and requests in a database. Requests will include:
@@ -57,6 +59,8 @@ The employee scheduling system will store employee data, generated schedules, an
 - Employee making the request
 - Target date of the request
 - Actions taken by the manager or other employees when necessary
+
+[Back to top](#employee-scheduling-system)
 
 ### Schedule Generation
 
@@ -74,25 +78,37 @@ It will try to find a solution that meets each of the basic requirements, such a
 - Ensuring each employee is able to be placed on their assigned shift
 - Ensuring accommodation of requested days off
 
+[Back to top](#employee-scheduling-system)
+
 ### Schedule Publishing
 
 Once the system generates the schedule, the manager can review the schedule and make changes as needed. If there are no changes or when they are satisfied with the changes they made, they can publish the schedule. Publishing the schedule will make it available to the employees and allow them to submit requests to the published schedule.
+
+[Back to top](#employee-scheduling-system)
 
 ### Schedule Requests
 
 Employees will be able to place time-off requests for unpublished dates. After the manager publishes schedules, employees will be allowed to request schedule changes such as swapping shifts with another employee. Requests will alert the manager and supply options for responding to the request.
 
+[Back to top](#employee-scheduling-system)
+
 ### Schedule Alerts
 
 The system will send alerts to any user where an action or request is relevant to them. If an employee creates a request for a day off on the published schedule, they will receive notification that the system received the request submission, and the manager will receive an alert that they have a new request to review. If an employee requests a shift swap with another employee, the other employee will also receive an alert of the request with options to either accept or reject the shift swap. The manager will be able to reject or accept the shift swap after the other employee has accepted and the manager is able to reject before the other employee responds. If the manager makes a change to a published schedule, the affected employees will also receive an alert of the change.
+
+[Back to top](#employee-scheduling-system)
 
 ### System API
 
 Teams with complex requirements and preferences could use this software to generate schedules. It will be able to generate schedules manually or automatically through the API using a manager's API key. The API will also be able to provide shift information to both managers and employees based on date, employee, shift, or a combination of these.
 
+[Back to top](#employee-scheduling-system)
+
 ### Data Usage
 
 The system could use the data to figure out better scheduling for each work group's needs. This may include avoiding certain employee pairs because the manager always changes these pairings. If the system can identify patterns, the system could be improved to adjust to the patterns and generate better schedules in the future.
+
+[Back to top](#employee-scheduling-system)
 
 ## Solution Architecture Diagram
 
@@ -102,17 +118,23 @@ Within the Employee Scheduling System, each group of employees will be called a 
 
 [![Team Structure](images/TeamStructure.jpg "Team Structure")](images/TeamStructure.jpg)
 
+[Back to top](#employee-scheduling-system)
+
 ### Initial Registration Diagram
 
 The flowchart diagram illustrates the process of registering the team in the following image:
 
 [![Team Registration](images/TeamRegistration.jpg "Team Registration")](images/TeamRegistration.jpg)
 
+[Back to top](#employee-scheduling-system)
+
 ### Schedule Generation Diagram
 
 The flowchart diagram illustrates the process for generating a new schedule in the following image:
 
 [![Schedule Generation](images/ScheduleGeneration.jpg "Schedule Generation")](images/ScheduleGeneration.jpg)
+
+[Back to top](#employee-scheduling-system)
 
 ## Wireframe Sketches
 
@@ -123,11 +145,15 @@ The website will contain at least four primary pages:
 - [Employee Page](#employee-page)
 - [Manager Page](#manager-page)
 
+[Back to top](#employee-scheduling-system)
+
 ### Home Page
 
 [![Home Page](images/Wireframe-HomePage.jpg "Home Page")](images/Wireframe-HomePage.jpg)
 
 The home page will present an introduction of the service and instructions for team managers to set up their team.
+
+[Back to top](#employee-scheduling-system)
 
 ### Login Page
 
@@ -135,17 +161,23 @@ The home page will present an introduction of the service and instructions for t
 
 The login page will provide a basic login form and additional links for registering a new team and password recovery.
 
+[Back to top](#employee-scheduling-system)
+
 ### Employee Page
 
 [![Employee Page](images/Wireframe-EmployeePage.jpg "Employee Page")](images/Wireframe-EmployeePage.jpg)
 
 When an employee logs in, the employee page will display the monthly calendar. The shifts of the current week for the employee logged in will display in a list to the right of the calendar. The employee can select shifts on both the calendar and in the list, where options will be shown to submit requests for the selected shift.
 
+[Back to top](#employee-scheduling-system)
+
 ### Manager Page
 
 [![Manager Page](images/Wireframe-ManagerPage.jpg "Manager Page")](images/Wireframe-ManagerPage.jpg)
 
 When the manager logs in, the manager page will display the monthly calendar similar to the employee view. However, the shift list to the right will show all employee shifts over the next few days. The manager view will also include an indicator for active requests from employees and a button to enable modifying employees, shift information, or other necessary modifications.
+
+[Back to top](#employee-scheduling-system)
 
 ## User Stories
 
@@ -155,6 +187,8 @@ When the manager logs in, the manager page will display the monthly calendar sim
 4. As an employee, I need to see shift swap requests from other employees so that I may indicate my acceptance or rejection of the proposed shift swap.
 5. As an employee, I need to see changes to my schedule in real time so that I'm reporting to the correct location as indicated by the manager.
 
+[Back to top](#employee-scheduling-system)
+
 ## Use Cases
 
 1. The manager can modify employees to their team through the `Team Management` dialog. On the manager view, the `Manage` button will open this dialog, which will show buttons to `Add Employees`, `Edit` each employee entry, and `Delete` employee entries. The `Add Employee` dialog will show a form for the manager to enter employee details. The `Edit` dialog will show a form for the selected employee and will save changes after clicking the `Save` button.
@@ -163,9 +197,13 @@ When the manager logs in, the manager page will display the monthly calendar sim
 4. The manager can respond to `Schedule Change Requests` in the `Requests` dialog. On the manager view, the manager can see the notification icon indicating new requests. When they click on the `Requests` button, the `Requests` dialog will open with a list of active requests. Each request will include options to `Accept` or `Reject` each one.
 5. Employees can respond to shift swaps in which other employees have submitted requests for one of their assigned shifts. The affected shifts will appear with an exclamation point icon. When they click on these shifts, they will see the `Request` dialog showing the details of the shift swap and will be able to `Accept` or `Reject` the request.
 
+[Back to top](#employee-scheduling-system)
+
 ## Use Case Diagram
 
 [![Use Case Diagram](images/UseCaseDiagram.jpg "Use Case Diagram")](images/UseCaseDiagram.jpg)
+
+[Back to top](#employee-scheduling-system)
 
 ## Table of Requirements
 
@@ -179,3 +217,5 @@ When the manager logs in, the manager page will display the monthly calendar sim
 |   6   | The software shall allow the manager to review day off and shift swap requests with options to `Approve` or `Deny` each request. |
 |   7   | The software shall allow a specified employee to `Approve` or `Deny` shift swaps requested by another employee.                  |
 |   8   | The software shall allow managers to add, modify, and remove employees.                                                          |
+
+[Back to top](#employee-scheduling-system)
