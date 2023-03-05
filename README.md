@@ -28,6 +28,8 @@ The Employee Scheduling System enables employers and employees a way to manage w
   - [Use Cases](#use-cases)
   - [Use Case Diagram](#use-case-diagram)
   - [Table of Requirements](#table-of-requirements)
+  - [ERD](#erd)
+  - [UML Class Diagram](#uml-class-diagram)
 
 ## Concept Description
 
@@ -217,5 +219,19 @@ When the manager logs in, the manager page will display the monthly calendar sim
 |   6   | The software shall allow the manager to review day off and shift swap requests with options to `Approve` or `Deny` each request. |
 |   7   | The software shall allow a specified employee to `Approve` or `Deny` shift swaps requested by another employee.                  |
 |   8   | The software shall allow managers to add, modify, and remove employees.                                                          |
+
+[^ Back to top](#employee-scheduling-system)
+
+## ERD
+
+[![Chen-style Entity Relationship Diagram](images/ERD-Chen.jpg "Chen-style Entity Relationship Diagram")](images/ERD-Chen.jpg)
+
+[^ Back to top](#employee-scheduling-system)
+
+## UML Class Diagram
+
+For part 2, develop your initial class diagram to show the implementation of the ERD as software classes.
+
+Each class should include the attributes, the attribute type, visibility, and methods with return type, parameters, and visibility as well as any relationships among other objects.
 
 [^ Back to top](#employee-scheduling-system)
