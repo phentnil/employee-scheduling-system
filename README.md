@@ -230,8 +230,6 @@ When the manager logs in, the manager page will display the monthly calendar sim
 
 ## UML Class Diagram
 
-For part 2, develop your initial class diagram to show the implementation of the ERD as software classes.
-
-Each class should include the attributes, the attribute type, visibility, and methods with return type, parameters, and visibility as well as any relationships among other objects.
+[![UML Class Diagram](images/UML-Class-Diagram.jpg "UML Class Diagram")](images/UML-Class-Diagram.jpg)
 
 [^ Back to top](#employee-scheduling-system)
