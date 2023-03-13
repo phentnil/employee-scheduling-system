@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "deploy": "ng deploy --base-href=/employee-scheduling-system/prototype/",
+    "deploy": "ng deploy --base-href=/employee-scheduling-system/",
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build",
