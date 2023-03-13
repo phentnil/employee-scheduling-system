@@ -1,0 +1,68 @@
+/* Place styles for the App component here */
+:host {
+  color: #333;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem 0;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #125699;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  font-weight: 600;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.toolbar h1 {
+  margin-left: 1rem;
+}
+
+.toolbar>h1>a {
+  color: white;
+}
+
+.toolbar>a,
+.toolbar>a:visited,
+.toolbar>a:hover {
+  color: hsl(0, 0%, 40%);
+}
+
+.toolbar>a.activebutton,
+.toolbar>a.activebutton:visited,
+.toolbar>a.activebutton:hover {
+  color: hsl(0, 0%, 20%);
+}

@@ -1,0 +1,11 @@
+<main>
+  <h2>Login</h2>
+  <form (submit)="unSubmit($event)" (reset)="unEvent($event)">
+    <div><label for="username">Username</label></div>
+    <div><input (focus)="unFocus($event)" readonly="readonly" id="username" type="text" value="luvs2code" /></div>
+    <div><label for="password">Password </label></div>
+    <div><input (focus)="unFocus($event)" readonly="readonly" id="password" type="password" value="neverGunnaGivUup" /></div>
+    <div><button (click)="unEvent($event)" type="submit">Submit</button></div>
+    <div><button (click)="unEvent($event)" type="reset">Reset</button></div>
+  </form>
+</main>

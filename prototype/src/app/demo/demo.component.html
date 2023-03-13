@@ -1,0 +1,13 @@
+<main>
+  <h2>Request A Demo</h2>
+  <form (submit)="unSubmit($event)" (reset)="unEvent($event)">
+    <div><label for="firstName">First Name </label></div>
+    <div><input (focus)="unFocus($event)" readonly="readonly" id="firstName" type="text" value="Rosanna" /></div>
+    <div><label for="lastName">Last Name </label></div>
+    <div><input (focus)="unFocus($event)" readonly="readonly" id="lastName" type="text" value="Wood" /></div>
+    <div><label for="email">E-mail address </label></div>
+    <div><input (focus)="unFocus($event)" readonly="readonly" id="email" type="email" value="rwood@gmail.com" /></div>
+    <div><button (click)="unEvent($event)" type="submit">Submit</button></div>
+    <div><button (click)="unEvent($event)" type="reset">Reset</button></div>
+  </form>
+</main>
