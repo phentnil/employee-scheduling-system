@@ -30,6 +30,7 @@ The Employee Scheduling System enables employers and employees a way to manage w
   - [Table of Requirements](#table-of-requirements)
   - [ERD](#erd)
   - [UML Class Diagram](#uml-class-diagram)
+  - [Prototype](#prototype)
 
 ## Concept Description
 
@@ -233,3 +234,7 @@ When the manager logs in, the manager page will display the monthly calendar sim
 [![UML Class Diagram](images/UML-Class-Diagram.jpg "UML Class Diagram")](images/UML-Class-Diagram.jpg)
 
 [^ Back to top](#employee-scheduling-system)
+
+## Prototype
+
+The prototype for this project can be found [here](/prototype/README.md)
