@@ -1,6 +1,6 @@
 # Prototype
 
-The Employee Scheduling System Prototype is available [here](https://phentnil.github.io/employee-scheduling-system/).
+The Employee Scheduling System Prototype is available [here](https://phentnil.github.io/prototype/).
 
 The navigation bar at the top is the same for all pages:
 
