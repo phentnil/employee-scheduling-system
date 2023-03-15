@@ -237,4 +237,4 @@ When the manager logs in, the manager page will display the monthly calendar sim
 
 ## Prototype
 
-The prototype for this project can be found [here](/prototype/README.md)
+The prototype for this project can be found [here](/prototype/README.md) (`/prototype/README.md`) and the prototype demo can be found [here](https://phentnil.github.io/prototype/)
