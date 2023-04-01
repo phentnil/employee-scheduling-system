@@ -1,0 +1,20 @@
+{
+  "name": "data-access",
+  "version": "1.0.0",
+  "description": "The Employee Scheduling System API demo",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "mock": "node data.import.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "dotenv-expand": "^10.0.0",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2"
+  }
+}

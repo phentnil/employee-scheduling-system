@@ -247,7 +247,7 @@ The prototype for this project can be found [here](/prototype/README.md) (`/prot
 
 ## Data Access Layer
 
-The API for this project was built in [Node.js](https://nodejs.org/en) using [Express](https://expressjs.com/) for routing and [MongoDB](https://www.mongodb.com/) for data storage. I built routes for the "index", "employees", and "requests" paths and the results can be seen in the following sections.
+The API for this project was built in [Node.js](https://nodejs.org/en) using [Express](https://expressjs.com/) for routing and [MongoDB](https://www.mongodb.com/) for data storage. I built routes for the "index", "employees", and "requests" paths and the results can be seen in the following sections. The source code can be found [here](/data-access/README.md)
 
 [^ Back to top](#employee-scheduling-system)
 
