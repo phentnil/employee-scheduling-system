@@ -31,6 +31,10 @@ The Employee Scheduling System enables employers and employees a way to manage w
   - [ERD](#erd)
   - [UML Class Diagram](#uml-class-diagram)
   - [Prototype](#prototype)
+  - [Data Access Layer](#data-access-layer)
+    - [API Index Route](#api-index-route)
+    - [API Employees Route](#api-employees-route)
+    - [API Requests Route](#api-requests-route)
 
 ## Concept Description
 
@@ -238,3 +242,35 @@ When the manager logs in, the manager page will display the monthly calendar sim
 ## Prototype
 
 The prototype for this project can be found [here](/prototype/README.md) (`/prototype/README.md`) and the prototype demo can be found [here](https://phentnil.github.io/prototype/)
+
+[^ Back to top](#employee-scheduling-system)
+
+## Data Access Layer
+
+The API for this project was built in [Node.js](https://nodejs.org/en) using [Express](https://expressjs.com/) for routing and [MongoDB](https://www.mongodb.com/) for data storage. I built routes for the "index", "employees", and "requests" paths and the results can be seen in the following sections.
+
+[^ Back to top](#employee-scheduling-system)
+
+### API Index Route
+
+Navigating to the main url with no other path information (`"<baseUrl>/"`) provides both employees and requests collections in JSON format. I was able to fold the employees data to show that both collections are returned.
+
+[![Index Route](images/API-index.jpg "Index Route")](images/API-index.jpg)
+
+[^ Back to top](#employee-scheduling-system)
+
+### API Employees Route
+
+Navigating to the employees path (`"<baseUrl>/employees"`) provides the employees collection in JSON format as shown below.
+
+[![Employees Route](images/API-employees.jpg "Employees Route")](images/API-employees.jpg)
+
+[^ Back to top](#employee-scheduling-system)
+
+### API Requests Route
+
+Navigating to the requests path (`"<baseUrl>/requests"`) provides the requests collection in JSON format as shown below.
+
+[![Requests Route](images/API-requests.jpg "Requests Route")](images/API-requests.jpg)
+
+[^ Back to top](#employee-scheduling-system)
